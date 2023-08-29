@@ -1,44 +1,40 @@
-body{
-  /* height: 100vh; */
+body {
   background-image: url('img/blue-bg.svg');
-  /* background-size: cover; */
-  letter-spacing: 0.2em;
+  background-size: cover;
+  height: 100vh;
   font-size: 0.8em;
-}
+  letter-spacing: 0.2em;
 
-.container{
-  max-width: 400px;
-}
+  .container {
+    max-width: 400px;
 
-.icon{
-  position: relative;
-  top: -50px;
-  border-radius: 50%;
-  width: 100px;
-  margin-bottom: -50px;
-}
+    .form-control {
+      border-radius: 50px;
+    }
 
-.card{
-  width: 100%;
-  max-width: 450px;
-  /* margin: 100px auto 20px; */
-  /* padding: 40px 30px 40px; */
-  background: rgba(255, 255, 255, .1);
-  box-shadow: 0 25px 45px rgba(0, 0, 0, .2) ;
-  border-radius: 50px;
-  border: 2px solid rgba(255, 255, 255, .5);
-  border-right: 2px solid rgba(255, 255, 255, .2);
-  border-bottom: 2px solid rgba(255, 255, 255, .2);
-  backdrop-filter: blur(10px);
-}
+    .card {
+      width: 100%;
+      max-width: 450px;
+      background: rgba(255, 255, 255, .1);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, .2) ;
+      border-radius: 50px;
+      border: 2px solid rgba(255, 255, 255, .5);
+      border-right: 2px solid rgba(255, 255, 255, .2);
+      border-bottom: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(10px);
 
-.card img{
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  /* backdrop-filter: blur(10px); */
-}
+      & img {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+      }
 
-.form-control{
-  border-radius: 50px;
-
+      .icon {
+        position: relative;
+        border-radius: 50%;
+        margin-bottom: -50px;
+        top: -50px;
+        width: 100px;
+      }
+    }
+  }
 }

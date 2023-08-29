@@ -51,7 +51,6 @@ const updateCity = async (city) => {
 };
 
 cityForm.addEventListener('submit', e => {
-  // prevent default
   e.preventDefault();
 
   // get city value
