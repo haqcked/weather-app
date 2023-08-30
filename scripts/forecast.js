@@ -10,7 +10,6 @@ const getWeather = async (id) => {
   const data = await response.json();
 
   return data[0];
-
 };
 
 // get city info
@@ -23,6 +22,4 @@ const getCity = async (city) => {
   const data = await respond.json();
 
   return data[0];
-
-
 };
